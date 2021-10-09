@@ -1674,6 +1674,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 .commentarea .infobar {
     line-height: 18px;
     margin: 0 0 16px;
+    z-index: -1;
 }
 
     .commentarea .infobar a {
