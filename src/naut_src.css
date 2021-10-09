@@ -1,9 +1,9 @@
 /*
-    Naut 4.2
-    Stylesheet by /u/Cryptonaut
-    Maintained by /u/RenegadeAI & /u/LackingAGoodName
-    Last modified: 27 March 2018
-    Find out more on /r/Naut
+    NautCommunity 1.0
+    Created by /u/ElijahPepe
+    Original stylesheet by /u/Cryptonaut and maintained by /u/RenegadeAI & /u/LackingAGoodName
+    Last modified: 8 October 2021
+    Find out more on /r/NautCommunity
 -------------------------------------------------------------------------- */
 
 /* Body / Box Sizing */
@@ -2342,13 +2342,13 @@ div.titlebox span.number:after {
     text-transform: uppercase;
 }
 
-/* /r/Naut Credits - Please do not remove this section */
+/* Credits - Please do not remove this section */
 .side:after {
     display: block;
     margin: 0;
     padding: 10px 0;
     color: #24A0ED;
-    content: "Subreddit CSS Theme by /r/Naut";
+    content: "Subreddit CSS Theme by /r/NautCommunity";
     font: 16px Lato,Arial,sans-serif;
     position: absolute;
     width: 320px;
