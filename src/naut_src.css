@@ -2409,6 +2409,30 @@ div.titlebox span.number:after {
         color: #24a0ed;
     }
 
+.panestack-title a.title-button.gold {
+    padding: 4px;
+    background: #FFD54F;
+    border: none;
+    border-radius: 2px;
+    font-weight: 700;
+    line-height: 36px;
+    font-size: 14px;
+    font-family: Lato,Arial,sans-serif;
+    box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12),0 0 4px 0 rgba(0,0,0,.12);
+    transition: box-shadow .2s cubic-bezier(.4,0,1,1),background .2s cubic-bezier(.4,0,.2,1),color .2s cubic-bezier(.4,0,.2,1);
+}
+
+.panestack-title a.title-button.gold:hover {
+    background: #FFDB67;
+    box-shadow: 0 4px 5px 0 rgba(0,0,0,.14),0 1px 10px 0 rgba(0,0,0,.12),0 2px 4px -1px rgba(0,0,0,.2);
+}
+
+.panestack-title a.title-button.gold:active {
+    color: #fff;
+    background: #9a7d2e;
+    box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12),0 0 4px 0 rgba(0,0,0,.12);
+}
+
 .help-hoverable {
     font-size: x-small;
 }
