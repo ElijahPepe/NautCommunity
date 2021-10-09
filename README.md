@@ -12,8 +12,8 @@
 ## Installation
 
 1. Navigate to `/r/YourSubreddit/about/stylesheet`.
-2. Paste the CSS from the `NautCommunity 1 - Main CSS File.css` file into the Stylesheet text area.
-3. Upload the images from the `/Images/` folder, be sure not to rename them.
+2. Paste the CSS from the `NautCommunity.css` file into the Stylesheet text area.
+3. Upload the images from the `images/` folder, be sure not to rename them.
 4. Save!
 
 You may now customize NautCommunity by either adding your own unique CSS Styles after NautCommunity, or by visiting the [Naut Addons Repository](https://github.com/Axel--/Naut-for-reddit/tree/master/Addons) from Cryptonaut!
