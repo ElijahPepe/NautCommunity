@@ -667,6 +667,7 @@ body > .content .link .rank, .rank-spacer {
     font: 13.5pt Lato,Arial,sans-serif;
     transition: all .15s ease;
     overflow: visible;
+    margin-right: 5px;
 }
 
 body .content .sitetable .link .title a:hover {
@@ -3012,12 +3013,8 @@ body.mod-toolbox .tb-action-button {
 
 
 /* Submission Page */
-.submit-page #header {
-    height: 144px;
-}
-
 .submit-page #header-bottom-left {
-    top: 86px;
+    top: 140px;
     left: 50%;
     margin-left: -262px;
 }
