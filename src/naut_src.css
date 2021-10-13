@@ -1461,7 +1461,7 @@ body > .content .link.compressed .midcol {
     transition: all .1s ease;
 }
 
-div.RES-keyNav-activeElement, div.commentarea div.RES-keyNav-activeElement.entry div.noncollapsed {
+.entry.res-selected.RES-keyNav-activeElement, div.commentarea .entry.res-selected.RES-keyNav-activeElement div.noncollapsed {
     background-color: transparent !important;
     padding-left: 8px !important;
     border-left: 3px solid #C2C2C2;
