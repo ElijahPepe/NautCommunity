@@ -985,6 +985,7 @@ body .content .sitetable .link .title a:hover {
 
 .post-sharing .c-close {
     padding: 15px;
+    text-indent: -9999px;
 }
 
 .post-sharing, .subreddit-report-form {
@@ -2623,6 +2624,80 @@ div.titlebox span.number:after {
     }
 
 /* RES Fixes / RES Nightmode */
+.expando-button, #RESStyleSheetTipPane, #preview-table>table {
+    border-color: #333 !important;
+}
+
+.thing .entry.res-selected {
+    background-color: #282828 !important;
+}
+
+.thing .entry.res-selected .md-container {
+    background-color: transparent !important;
+}
+
+.NERPageMarker, .res #progressIndicator {
+    background-color: #333 !important;
+}
+
+.res #progressIndicator h2 {
+    color: #a0b4cc;
+}
+
+.RESNotification .RESNotificationContent>p {
+    color: #000!important;
+}
+
+.RESNotificationFooter .RESNotificationToggle {
+    color: rgb(140, 140, 140);
+}
+
+.res-voteEnhancements-highlightScores span.score, .res-commentNavToggle {
+    color: #777!important;
+}
+
+.crosspost-preview {
+    background-color: #282828;
+    border-color: #333;
+}
+
+.crosspost-preview.video .crosspost-preview-content {
+    background-color: #222;
+}
+
+select.crosspost-field, fieldset.crosspost-fieldset>label {
+    color: black!important;
+}
+
+#RESStyleSheetTipPane-header {
+    color: #E0E0E0;
+    border-color: #333;
+}
+
+#preview-table>table>tbody>tr>th, body.mod-toolbox-rd .tb-bracket-button {
+    color: #E0E0E0;
+}
+
+.reddit-infobar.gold-accent p, .mod-toolbox-rd .tb-window p, .mod-toolbox-rd .tb-window label, .mod-toolbox-rd input.tb-input {
+    color: #222222 !important;
+}
+
+.post-sharing .c-close {
+    background-image: url(%%spritesheet%%);
+    background-position: -70px -57px;
+    background-size: 176px;
+    margin: 3px;
+    padding: 12px;
+}
+
+.post-sharing .c-close:hover {
+    background-position: -88px -57px;
+}
+
+.res-gallery {
+    color: #999;
+}
+
 /* Voting Arrows */
 .res-nightmode .arrow {
     background-image: url(%%spritesheet%%) !important;
@@ -3949,6 +4024,7 @@ html.res-commentBoxes .comment {
     margin-top: 0;
     padding-top: 12px;
     padding-bottom: 8px;
+    z-index: 42;
 }
 
 .res .comment.collapsed a.expand:after {
@@ -3961,6 +4037,18 @@ html.res-commentBoxes .comment {
     position: relative;
     top: 2px;
     transition: all .25s ease;
+}
+
+.NERPageMarker .gearIcon {
+    padding: 8px;
+}
+
+#progressIndicator .gearIcon {
+    padding: 0px 8px;
+}
+
+.NERPageMarker .gearIcon:after, #progressIndicator .gearIcon:after {
+    display:none;
 }
 
 #RESMainGearOverlay {
