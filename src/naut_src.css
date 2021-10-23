@@ -1954,6 +1954,9 @@ div.titlebox span.number:after {
     margin-left: 208px;
     top: 314px;
     z-index: 100;
+    max-width: 100px;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 .titlebox .fancy-toggle-button .active {
