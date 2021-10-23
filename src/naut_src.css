@@ -4505,6 +4505,12 @@ body.other-discussions-page > .content,
     -webkit-animation-timing-function: ease;
 }
 
+/* readReddit support */
+
+.rd-overlayActive * {
+    font-family: Lato;
+}
+
 #mail.havemail:hover:before {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
