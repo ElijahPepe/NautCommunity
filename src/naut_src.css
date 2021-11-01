@@ -26,13 +26,13 @@ a {
 }
 
 ::-moz-selection {
-    background: #0079d3;
+    background: #1976d2;
     text-shadow: none;
     color: #fff;
 }
 
 ::selection {
-    background: #0079d3;
+    background: #1976d2;
     text-shadow: none;
     color: #fff;
 }
@@ -80,7 +80,7 @@ body button,
 .wiki-page .wiki-page-content .wiki_button {
     margin: 4px 16px 4px 0;
     padding: 0 16px;
-    background: #0079d3;
+    background: #1976d2;
     border: none;
     border-radius: 2px;
     color: #fff;
@@ -787,8 +787,8 @@ body .content .sitetable .link .title a:hover {
 }
 
 .expando-button:hover {
-    background-color: #0079d3;
-    border-color: #0079d3;
+    background-color: #1976d2;
+    border-color: #1976d2;
 }
 
 .expando-button.selftext.collapsed,
@@ -1736,7 +1736,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
     padding: 8px 16px;
     line-height: 26px;
     border: none;
-    background-color: #0079d3;
+    background-color: #1976d2;
     color: #fff;
     border-radius: 2px;
 }
@@ -2161,7 +2161,7 @@ div.titlebox span.number:after {
 
 /* Submit Button */
 .morelink {
-    background: #0079d3;
+    background: #1976d2;
     height: 36px;
     border-radius: 2px;
     font-size: 14px;
@@ -2353,7 +2353,7 @@ div.titlebox span.number:after {
     padding: 0 16px;
     width: 100%;
     border-radius: 2px;
-    background: #0079d3;
+    background: #1976d2;
     font: 12px/42px Lato, Arial, sans-serif;
     color: #fff;
     display: block;
@@ -3038,7 +3038,7 @@ body.mod-toolbox-rd .tb-bracket-button {
 .res-nightmode .submit-page #url-field button,
 .res-nightmode .submit-page #newlink.submit.content .btn,
 .res-nightmode .sidebox.create .morelink {
-    background-color: #0079d3 !important;
+    background-color: #1976d2 !important;
 }
 
 /* Input Fields */
@@ -3354,7 +3354,7 @@ body.mod-toolbox .tb-action-button {
 }
 
 .read-next .read-next-button {
-    background-color: #0079d3;
+    background-color: #1976d2;
     color: #fff;
     font: 10px/16px monospace;
     height: 16px;
@@ -3409,7 +3409,7 @@ body.mod-toolbox .tb-action-button {
     position: relative;
     padding: 0;
     border: none;
-    background: #0079d3;
+    background: #1976d2;
     border-radius: 2px;
     box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
 }
@@ -3460,7 +3460,7 @@ body.mod-toolbox .tb-action-button {
 }
 
 .submit_text.enabled.roundfield {
-    background: #0079d3;
+    background: #1976d2;
 }
 
 .submit_text.enabled.roundfield .md {
@@ -3678,7 +3678,7 @@ body #newlink-with-image-upload .file-upload-button {
     .search-result-subreddit
     .search-subscribe-button
     .add:active {
-    background: #0079d3;
+    background: #1976d2;
     border: none;
     border-radius: 2px;
 }
@@ -3977,7 +3977,7 @@ ul.image-preview-list li {
 .subreddit-rules-page .form-buttons button,
 .subreddit-rule-delete-confirmation button {
     padding: 0 16px;
-    background: #0079d3;
+    background: #1976d2;
     border: none;
     border-radius: 2px;
     color: #fff;
