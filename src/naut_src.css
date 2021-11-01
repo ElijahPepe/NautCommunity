@@ -4182,7 +4182,7 @@ ul.image-preview-list li {
 }
 
 .res #header-bottom-right {
-    top: 1px;
+    top: 1px !important;
     border-radius: 0;
     height: 18px;
     padding: 0 8px 0 0;
@@ -4197,7 +4197,7 @@ ul.image-preview-list li {
 }
 
 .res a.beta-link {
-    left: -10px;
+    left: 15px;
     top: 4px;
 }
 
