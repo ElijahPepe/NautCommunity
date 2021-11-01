@@ -1,5 +1,5 @@
 /*
-    NautCommunity v0.1.0
+    NautCommunity v0.2.0
     Created by /u/ElijahPepe
     Original stylesheet by /u/Cryptonaut and maintained by /u/RenegadeAI & /u/LackingAGoodName
     Last modified: 8 October 2021
@@ -157,6 +157,7 @@ body:not(.loggedin) #sr-header-area .width-clip {
     background: none;
     color: rgba(255, 255, 255, 0.4);
     transition: all 0.15s ease;
+    text-transform: capitalize;
 }
 
 #sr-header-area:hover .sr-bar a,
@@ -1271,7 +1272,7 @@ b {
 /* Sticky Post */
 .stickied {
     border-left: solid green 4px;
-    background-color: #e8f5e9;
+    background-color: #e8f5e9 !important;
 }
 
 .thing.link.stickied a.title,
@@ -2010,7 +2011,6 @@ div.titlebox span.number:after {
 .titlebox .fancy-toggle-button .active.remove {
     background: rgba(0, 0, 0, 0.24);
     color: #fff;
-    margin-left: -14px;
     box-shadow: none;
 }
 
