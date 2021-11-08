@@ -1272,7 +1272,7 @@ b {
 /* Sticky Post */
 .stickied {
     border-left: solid green 4px;
-    background-color: #e8f5e9 !important;
+    background-color: #e8f5e9;
 }
 
 .thing.link.stickied a.title,
