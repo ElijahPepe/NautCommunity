@@ -2746,6 +2746,10 @@ div.titlebox span.number:after {
 }
 
 /* RES Fixes / RES Nightmode */
+body.res.search-page #search {
+    transform:translateX(0%)
+}
+
 .expando-button,
 #RESStyleSheetTipPane,
 #preview-table > table {
