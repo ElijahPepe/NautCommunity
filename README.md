@@ -12,7 +12,7 @@
 ## Installation
 
 1. Navigate to `/r/YourSubreddit/about/stylesheet`.
-2. Download the [latest](https://github.com/NautCommunity/Naut/archive/refs/tags/v0.1.0.zip) version of NautCommunity.
+2. Download the [latest](https://github.com/NautCommunity/Naut/archive/refs/tags/v0.2.0.zip) version of NautCommunity.
 3. Paste the CSS from the `NautCommunity.css` file into the Stylesheet text area.
 2. Upload the images from the `images/` folder, be sure not to rename them.
 5. Save!
