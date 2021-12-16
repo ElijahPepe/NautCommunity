@@ -991,7 +991,6 @@ body .content .sitetable .link .title a:hover {
 
 /* Submission Flatlist - Comment / Share / Report */
 .link .flat-list {
-    padding: 0;
     margin-top: 3px;
 }
 
@@ -2748,12 +2747,6 @@ div.titlebox span.number:after {
 /* RES Fixes / RES Nightmode */
 body.res.search-page #search {
     transform:translateX(0%)
-}
-
-.expando-button,
-#RESStyleSheetTipPane,
-#preview-table > table {
-    border-color: #333 !important;
 }
 
 .thing .entry.res-selected .md-container {
